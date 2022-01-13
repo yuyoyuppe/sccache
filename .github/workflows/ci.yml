@@ -58,7 +58,7 @@ jobs:
           - os: macOS-10.15
           - os: windows-2019
     env:
-      RUST_BACKTRACE: 1
+      RUST_BACKTRACE: full
     steps:
       - name: Clone repository
         uses: actions/checkout@v1
